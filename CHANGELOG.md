@@ -2,6 +2,29 @@
 
 What changed in each version of Privacy AI Assistant.
 
+## October 26, 2026
+
+**2.1.0**
+
+### New
+
+* Added a Messages section to the main window that lists notices from the seller and license warnings, with a message count on the assistant bar.
+* Added opening, closing, zooming and moving a large visual on either screen of a shared session, so both people see the same view.
+* Added the host's split view and panel opacity controls to the helper's screen.
+* Added opacity buttons and the answer-navigation, redo and split view shortcuts to the desktop helper window.
+
+### Improved
+
+* Changed notices from the seller so they no longer pop up when a session starts.
+* Removed the extra notification on the host's screen when a helper sends a message, since the message already shows in the panel.
+
+### Fixed
+
+* Fixed a helper's screen missing the message box, the send button, the screenshot button and the visuals switch.
+* Fixed visuals such as architecture pictures showing on the host's screen but not on the helper's.
+* Fixed resizing the panel by dragging its edge not resizing it on the helper's screen.
+* Fixed scrolling on one side not moving the other side when the helper's window shows the panel smaller.
+
 ## October 20, 2026
 
 **2.0.3**
